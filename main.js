@@ -1,8 +1,9 @@
-const barre = document.getElementsByClassName("fa-bars")
-const hamburgerMenu = document.getElementsByClassName("hamburger-menu")
+const barre = document.querySelector(".fa-bars");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 barre.onclick = function() {menuVisibile()};
 
 function menuVisibile() {
-  hamburgerMenu[0].classList.add("active");
+  hamburgerMenu.classList.add("active");
 }
+
